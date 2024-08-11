@@ -19,7 +19,7 @@ bot.onText(/\/start/, (msg) => {
         [
           {
             text: 'SHOP',
-            web_app: { url: `http://localhost:3000/?userId=${chatId}` }
+            web_app: { url: `https://dart-9fe4.onrender.com/?userId=${chatId}` }
           }
         ]
       ]
